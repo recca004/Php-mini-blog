@@ -14,13 +14,12 @@ class Controller extends CommonController
         switch ($this->_action) 
         {
             case 'send':
- $this->_view = 'contact/contact_sent.php';
+                $this->_view = 'contact/contact_sent.php';
                 break;
 
             default :
 
                 $this->_view = 'contact/contact.php';
-
                 break;
         }
    }
